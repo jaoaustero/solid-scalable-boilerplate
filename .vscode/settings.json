@@ -1,0 +1,51 @@
+{
+	/**
+	 * Spacing
+	 */
+	"editor.tabSize": 4,
+	"editor.trimAutoWhitespace": true,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+
+	/**
+	 * Files
+	 */
+	"files.exclude": {
+		"**/*.log": true,
+		"**/*.log*": true,
+		"**/dist": true,
+		"**/coverage": true
+	},
+	"files.associations": {
+		".markdownlintrc": "jsonc"
+	},
+	
+	/**
+	 * HTML
+	 */
+	"html.format.enable": false,
+	"emmet.triggerExpansionOnTab": true,
+
+	/**
+	 * JS
+	 */
+	"jest.enableCodeLens": false,
+	"javascript.format.enable": false,
+	"json.format.enable": false,
+
+	/**
+	 * CSS
+	 */
+	"stylelint.enable": true,
+	"css.validate": false,
+	"scss.validate": false,
+
+	/**
+	 * Markdown
+	 */
+	"[markdown]": {
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	}
+}

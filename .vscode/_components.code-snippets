@@ -1,0 +1,12 @@
+{
+    "BaseButton": {
+        "scope": "javascriptreact",
+        "prefix": "BaseButton",
+        "body":  [
+            "<base-button>",
+            "\t${4}",
+            "</base-button>"
+        ],
+        "description": "<BaseButton/>"
+    }
+}

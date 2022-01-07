@@ -1,0 +1,35 @@
+{
+	"Solid const component" : {
+		"scope": "javascriptreact",
+		"prefix": "scc",
+		"body": [
+			"const ${TM_FILENAME_BASE} = () => {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t<h2> ${TM_FILENAME_BASE} component </h2>",
+			"\t\t</div>",
+			"\t);",
+			"};",
+			"\r",
+			"export default ${TM_FILENAME_BASE};"
+		],
+		"description": "Solid - create const component"
+	},
+
+	"Solid function component" : {
+		"scope": "javascriptreact",
+		"prefix": "sfc",
+		"body": [
+			"function ${TM_FILENAME_BASE}() {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t<h2> ${TM_FILENAME_BASE} component </h2>",
+			"\t\t</div>",
+			"\t);",
+			"};",
+			"\r",
+			"export default ${TM_FILENAME_BASE};"
+		],
+		"description": "Solid - create function component"
+	},
+}
