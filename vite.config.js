@@ -1,6 +1,7 @@
 /**
  * @file Configuration for vite
  */
+const path = require('path');
 import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
 
@@ -82,7 +83,9 @@ export default defineConfig({
          *
          * @see {@link https://vitejs.dev/config/#resolve-alias}
          */
-        alias: {}
+        alias: {
+            '@': path.join(__dirname, './src')
+        }
     },
 
     css: {
