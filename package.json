@@ -1,19 +1,38 @@
 {
   "name": "vite-template-solid",
   "version": "0.0.0",
-  "description": "",
+  "description": "A highly scalable, evolving, and best practices.",
+  "author": "Jerald Austero <jerald.austero0229@gmail.com> (https://twitter.com/jaoaustero)",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
-  "license": "MIT",
   "devDependencies": {
     "vite": "^2.7.6",
     "vite-plugin-solid": "^2.1.4"
   },
   "dependencies": {
+    "solid-app-router": "^0.2.0",
     "solid-js": "^1.2.6"
+  },
+  "license": "MIT",
+  "keywords": [
+    "boilerplate",
+    "solidjs",
+    "vite",
+    "solid-boilerplate",
+    "solidjs-boilerplate"
+  ],
+  "homepage": "https://github.com/jaoaustero/solid-scalable-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaoaustero/solid-scalable-boilerplate.git",
+    "repository": "tawk/solid-scalable-boilerplate"
+  },
+  "bugs": {
+    "url": "https://github.com/jaoaustero/solid-scalable-boilerplate/issues",
+    "email": "jerald.austero0229@gmail.com"
   }
 }
