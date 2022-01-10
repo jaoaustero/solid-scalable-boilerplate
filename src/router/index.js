@@ -5,7 +5,7 @@
 
 const routes = [];
 
-(function updateModules() {
+(function mergeRoutes() {
     const routers = import.meta.globEager('../pages/**/routes.js');
 
     for (const key in routers) {
